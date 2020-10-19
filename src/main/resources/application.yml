@@ -1,0 +1,11 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: XXX
+            clientSecret: XXX
+#logging:
+#  level:
+#    org.springframework.security: DEBUG
