@@ -6,6 +6,9 @@ spring:
           google:
             clientId: XXX
             clientSecret: XXX
+          facebook:
+            clientId: XXX
+            clientSecret: XXX
 #logging:
 #  level:
 #    org.springframework.security: DEBUG
