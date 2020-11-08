@@ -4,8 +4,11 @@ spring:
       client:
         registration:
           google:
-            clientId: XXX
-            clientSecret: XXX
-#logging:
-#  level:
-#    org.springframework.security: DEBUG
+            clientId: ${GOOGLE_CLIENT_ID}
+            clientSecret: ${GOOGLE_CLIENT_SECRET}
+          facebook:
+            clientId: ${FACEBOOK_CLIENT_ID}
+            clientSecret: ${FACEBOOK_CLIENT_SERVER}
+logging:
+  level:
+    org.springframework.security: DEBUG
